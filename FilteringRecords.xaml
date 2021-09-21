@@ -92,6 +92,7 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>GetXamlFileNameActivity</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="Sequence to perfom filter operation&#xA;&#xA;Filter Parameters&#xA;From Date, To Date, Patient, Status and Type" DisplayName="FilteringRecords" sap:VirtualizedContainerService.HintSize="2340,5731" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -211,7 +212,7 @@
                                         <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                                       </ActivityAction.Argument>
                                       <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_39">
-                                        <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: Text '05/21/2021' (61,442,62,12)&quot; +&#xA;&quot;Anchor: Text 'From:' (59,420,38,10)&quot;]" DesignTimeCacheId="99bcdac2-b16a-4617-95ef-9dbdfd7cee3e" DesignTimeScaleFactor="1" DisplayName="CV Type Into - Text" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_4" InformativeScreenshot="5817be1638e8d1691ff3080ef80e6d64" Text="[FromDateFilter]" Version="V2">
+                                        <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: Text '*' (61,442,62,12)&quot; +&#xD;&#xA;&quot;Anchor: Text 'From:' (59,420,38,10)&quot;]" DesignTimeCacheId="99bcdac2-b16a-4617-95ef-9dbdfd7cee3e" DesignTimeScaleFactor="1" DisplayName="CV Type Into - Text" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_4" InformativeScreenshot="5817be1638e8d1691ff3080ef80e6d64" Text="[FromDateFilter]" Version="V2">
                                           <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
                                             <uc:CvDescriptor>
                                               <uc:CvDescriptor.Anchors>
@@ -502,7 +503,7 @@
                                         <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                                       </ActivityAction.Argument>
                                       <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_40">
-                                        <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: Text '09/01/2021' (169,442,62,12)&quot; +&#xA;&quot;Anchor: Text 'To:' (169,423,23,10)&quot;]" DesignTimeCacheId="55f19224-2e9d-41b9-bc11-d857e9cb281b" DesignTimeScaleFactor="1" DisplayName="CV Type Into - Text" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_5" InformativeScreenshot="a17273c89c8369ac4fe20d99f5b6742b" Text="[ToDateFilter]" Version="V2">
+                                        <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: Text '*' (169,442,62,12)&quot; +&#xD;&#xA;&quot;Anchor: Text 'To:' (169,423,23,10)&quot;]" DesignTimeCacheId="55f19224-2e9d-41b9-bc11-d857e9cb281b" DesignTimeScaleFactor="1" DisplayName="CV Type Into - Text" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,164" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_5" InformativeScreenshot="a17273c89c8369ac4fe20d99f5b6742b" Text="[ToDateFilter]" Version="V2">
                                           <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
                                             <uc:CvDescriptor>
                                               <uc:CvDescriptor.Anchors>
